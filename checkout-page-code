@@ -1,0 +1,43 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout Page</title>
+</head>
+<body>
+  <!-- H1 element -->
+  <h1>Checkout</h1>
+
+  <!-- First section: Cart -->
+  <section>
+    <h2>Your Cart</h2><h2>$135.79</h2>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="A cube item in your cart">
+  </section>
+
+  <!-- Second section: Payment Information -->
+  <section>
+    <h2>Payment Information</h2>
+    <form>
+      <!-- Card Name -->
+      <label for="card-name">Name on Card:</label>
+      <input type="text" id="card-name" name="card-name" required aria-required="true"><br><br>
+
+      <!-- Card Number -->
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" name="card-number" required aria-required="true"><br><br>
+
+      <!-- Expiration Date -->
+      <label for="card-exp">Expiration Date:</label>
+      <input type="text" id="card-exp" name="card-exp"><br><br>
+
+      <!-- Submit Button -->
+      <button type="submit">Submit Payment</button>
+    </form>
+  </section>
+</body>
+</html>
+
+** end of index.html **
+
